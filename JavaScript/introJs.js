@@ -23,5 +23,5 @@ frm.addEventListener("submit", (e) => {
     console.log(N4);
     resp.innerText = `Olá ${nome}!`;
     soma.innerText = `A soma dos números é ${N1 + N2 + N3 + N4}!`;
-    media.innerText = `A média dos números é ${(N1 + N2 + N3 + N4)/4}`
+    media.innerText = `A média dos números é ${(N1 + N2 + N3 + N4)/4}`;
 });
